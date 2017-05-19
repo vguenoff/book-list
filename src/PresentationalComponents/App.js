@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import BookList from '../containers/BookList';
+import BookList from '../ContainerComponents/BookList';
+import BookDetail from '../ContainerComponents/BookDetail';
 
 import './App.css';
 
@@ -20,6 +21,7 @@ class App extends Component {
     return (
       <div className="App container">
         <BookList />
+        <BookDetail />
       </div>
     );
   }

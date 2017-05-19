@@ -29,6 +29,8 @@
     "react/prefer-stateless-function": 1,
     "import/first": 0,
     "no-return-assign": 0,
-    "import/no-named-default": 0
+    "import/no-named-default": 0,
+    "import/prefer-default-export": 1,
+    "object-shorthand": 1
   }
 }
