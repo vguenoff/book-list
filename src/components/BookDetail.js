@@ -12,7 +12,7 @@ const BookDetail = ({ book }) => {
       <h3>
         {book.title}
       </h3>
-      {book.pages}
+      Pages: {book.pages}
     </div>
   );
 };
